@@ -1,6 +1,5 @@
 import './App.css';
 import React, { Component } from 'react';
-import styles from './components/Feedback/Feedback.module.css';
 import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
 import Statistics from './components/Statistics/Statistics';
 import Section from './components/Section/Section';
@@ -33,7 +32,7 @@ class App extends Component {
     return (
       <>
         <div className="App">
-          <div className={styles.container}>
+          <div className="container">
             <Section title="Please leave feedback">
               <FeedbackOptions
                 options={this.options}
